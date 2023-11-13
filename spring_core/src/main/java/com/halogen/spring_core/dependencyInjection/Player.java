@@ -1,6 +1,5 @@
 package com.halogen.spring_core.dependencyInjection;
 
 public interface Player {
-    void playerName();
-
+    String playerName();
 }

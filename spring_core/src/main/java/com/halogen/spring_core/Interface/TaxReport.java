@@ -10,4 +10,8 @@ public class TaxReport {
     public void show() {
         System.out.println("report :" + calculator.calculateTax());
     }
+
+    public void setTaxCalculator(TaxCalculator calculator) {
+        this.calculator = calculator;
+    }
 }
